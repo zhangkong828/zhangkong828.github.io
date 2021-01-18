@@ -7,7 +7,7 @@
 
 # Site settings
 title:  ZhangKong.Cloud
-subtitle: 分享技术，品味人生
+subtitle: 
 name: ZhangKong 
 email: zhangkong828@gmail.com
 description: 本站是ZhangKong.Cloud的技术分享博客。
@@ -116,20 +116,20 @@ labels:
 # selected articles
 classes:
 
-  -
-    href: /cartoon.html
-    name: 不会笑青年
-    describe: 内心沉稳 ，放荡不羁。
+  # -
+  #   href: /cartoon.html
+  #   name: 不会笑青年
+  #   describe: 内心沉稳 ，放荡不羁。
 
-  -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
+  # -
+  #   href: /life.html
+  #   name: 我的故事
+  #   describe: 生活就是故事，故事就是生活
 
-  -
-    href: /it.html
-    name: IT行业深度报道
-    describe: IT大佬，互联网知名公司的故事
+  # -
+  #   href: /it.html
+  #   name: IT行业深度报道
+  #   describe: IT大佬，互联网知名公司的故事
 
 
 
