@@ -54,15 +54,15 @@ paginate_path: 'page:num'
 
 # Navigation. top menu list
 menus:
-  -
-    href: /link
-    label: 友链
-    target: _self
+  # -
+  #   href: /link
+  #   label: 友链
+  #   target: _self
 
-  -
-    href: /about
-    label: 关于
-    target: _self
+  # -
+  #   href: /about
+  #   label: 关于
+  #   target: _self
 
 # Navigation. main menu list
 navs:
@@ -85,21 +85,31 @@ navs:
   #       subHref: /spring-cloud.html
   #       subLabel: Spring Cloud
   -
-    href: /archives.html
-    label: 文章
+    href: /archives
+    label: 博客
     target: _self
 
   -
     href: /open-source
     label: 开源
 
+  -
+    href: /link
+    label: 友链
+    target: _self
+
+  -
+    href: /about
+    label: 关于
+    target: _self
+
 
 # labels. my blog key words
 labels:
-  -
-    href: /open-source.html
-    label: Code  
-    target: _blank
+  # -
+  #   href: /open-source.html
+  #   label: Code  
+  #   target: _blank
 
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Link
-titlebar: Link
+title: 友情链接
+titlebar: 友情链接
 subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; Resource link
 menu: Link
 permalink: /link
