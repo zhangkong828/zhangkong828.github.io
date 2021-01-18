@@ -11,14 +11,14 @@ subtitle: 分享技术，品味人生
 name: ZhangKong.Cloud 
 email: zhangkong828@gmail.com
 description: 本站是ZhangKong.Cloud的技术分享博客。
-keywords: zhangkong,Cloud,生活故事,架构,大数据,一线,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,.Net,C#,.Net Core,Python,
+keywords: 生活故事,架构,大数据,一线,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,.Net,C#,.Net Core,Python,
 encoding: "utf-8"
 favicon: favicon.ico 
 
-repository: ityouknow/ityouknow.github.io
-github_url: https://github.com/ityouknow
-url: http://www.ityouknow.com
-enforce_ssl: ityouknow.com
+repository: zhangkong828/zhangkong828.github.io
+github_url: https://github.com/zhangkong828
+url: https://zhangkong.cloud/
+enforce_ssl: zhangkong.cloud
 
 ## Gem
 plugins:
@@ -54,32 +54,6 @@ paginate_path: 'page:num'
 
 # Navigation. top menu list
 menus:
-
-  -
-    href: http://itmooc.tech/
-    label: IDEA破解
-    target: _blank  
-
-  -
-    href: /money.html
-    label: 挣钱
-    target: _self   
-
-  -
-    href: /it.html
-    label: 深度
-    target: _self
-
-  -
-    href: /life.html
-    label: 故事
-    target: _self
-
-  -
-    href: /arch.html
-    label: 架构
-    target: _self
-
   -
     href: /link.html
     label: 友链
@@ -96,11 +70,6 @@ navs:
   -
     href: /
     label: Home
-
-  -
-    href: http://laughyouth.com/
-    label: Comics
-    target: _blank
 
   -
     href: /spring-boot.html
@@ -155,41 +124,11 @@ navs:
 
 # labels. my blog key words
 labels:
-
-  -
-    href: /payment.html
-    label: Pay     
-    target: _self
-
-  -
-    href: /fastdfs.html
-    label: FastDFS
-    target: _blank
-
-  -
-    href: /mongodb.html
-    label: MongoDB
-    target: _blank
-
-  -
-    href: /docker.html
-    label: Docker
-    target: _blank
-
   -
     href: /open-source.html
     label: Code  
     target: _blank
 
-  -
-    href: /gitchat.html
-    label: Chat
-    target: _blank
-
-  -
-    href: http://favorites.ren/stock.html
-    label: 股票
-    target: _blank  
 
 
 # selected articles
@@ -244,19 +183,19 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: ityouknow
+    username: zhangkong
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: ityouknow
+    owner: zhangkong828
     repo: blog-comments
     oauth:
-        client_id: 61bfc53d957e74e78f8f
-        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+        client_id: 54a94d050e1e2b420f30
+        client_secret: c22e87c1b2ef30c21ead785c00ed223bc6e98f28
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: ityouknow
+    owner: zhangkong828
     repo: blog-comments
-    clientID: 61bfc53d957e74e78f8f
-    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+    clientID: 54a94d050e1e2b420f30
+    clientSecret: c22e87c1b2ef30c21ead785c00ed223bc6e98f28
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
