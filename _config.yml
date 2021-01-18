@@ -8,7 +8,7 @@
 # Site settings
 title:  ZhangKong.Cloud
 subtitle: 分享技术，品味人生
-name: ZhangKong.Cloud 
+name: ZhangKong 
 email: zhangkong828@gmail.com
 description: 本站是ZhangKong.Cloud的技术分享博客。
 keywords: 生活故事,架构,大数据,一线,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,.Net,C#,.Net Core,Python,
@@ -17,7 +17,7 @@ favicon: favicon.ico
 
 repository: zhangkong828/zhangkong828.github.io
 github_url: https://github.com/zhangkong828
-url: https://zhangkong.cloud/
+url: https://zhangkong.cloud
 enforce_ssl: zhangkong.cloud
 
 ## Gem
@@ -55,12 +55,12 @@ paginate_path: 'page:num'
 # Navigation. top menu list
 menus:
   -
-    href: /link.html
+    href: /link
     label: 友链
     target: _self
 
   -
-    href: /about.html
+    href: /about
     label: 关于
     target: _self
 
@@ -69,57 +69,29 @@ navs:
 
   -
     href: /
-    label: Home
+    label: 首页
 
-  -
-    href: /spring-boot.html
-    label: Spring Boot
-    target: _self
-    subnav:
+  # -
+  #   href: /spring-boot.html
+  #   label: Spring Boot
+  #   target: _self
+  #   subnav:
 
-      -
-        subHref: /spring-boot.html
-        subLabel: Spring Boot
+  #     -
+  #       subHref: /spring-boot.html
+  #       subLabel: Spring Boot
 
-      -
-        subHref: /spring-cloud.html
-        subLabel: Spring Cloud
-
-  -
-    href: http://www.justdojava.com
-    label: Java
-    target: _blank
-    subnav:
-
-      -
-        subHref: /java.html
-        subLabel: Jvm 系列文章
-        
-      -
-        subHref: http://www.justdojava.com
-        subLabel: Java 极客技术
-        target: _blank
-
-  -
-    
-    href: /python.html
-    label: Python
-    subnav:
-
-      -
-        subHref: /python.html
-        subLabel: Python 教程
-        
-      -
-        subHref: http://www.justdopython.com
-        subLabel: Python 技术
-        target: _blank
-
+  #     -
+  #       subHref: /spring-cloud.html
+  #       subLabel: Spring Cloud
   -
     href: /archives.html
-    label: Archives
+    label: 文章
     target: _self
 
+  -
+    href: /open-source
+    label: 开源
 
 
 # labels. my blog key words
