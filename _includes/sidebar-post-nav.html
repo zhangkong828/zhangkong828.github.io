@@ -1,4 +1,4 @@
-<h3>Post Directory</h3>
+<h3>目录</h3>
 <div id="post-directory-module">
 <section class="post-directory">
     <!-- Links that trigger the jumping -->
@@ -27,6 +27,10 @@
                         + "</a></dd>");
             });
         });
+
+        if($(".post-directory a")&&$(".post-directory a").length>4){
+            $(".post-directory dl").append("<a class=\"jumper\" href=\"javascript:window.scrollTo(0,0)\">回到顶部</a>");
+        }
 
         var fixmeTop = $('#post-directory-module').offset().top - 100;       // get initial position of the element
 
