@@ -13,11 +13,12 @@ css: ['sidebar-post-nav.css']
             {{ content }}
 
             {% include copyright.html %}
+            {% include post-pagination.html %}
 
             <!-- Comments -->
-           <div class="comment">
-             {% include comments.html %}
-           </div>
+            <div class="comment">
+                {% include comments.html %}
+            </div>
 
         </div>
         {% else %}
@@ -26,10 +27,10 @@ css: ['sidebar-post-nav.css']
             {{ content }}
 
             {% include copyright.html %}
-
+            {% include post-pagination.html %}
             <!-- Comments -->
             <div class="comment">
-             {% include comments.html %}
+                {% include comments.html %}
             </div>
         </div>
 
@@ -39,6 +40,4 @@ css: ['sidebar-post-nav.css']
         {% endif %}
 
     </div>
-     <div class="asb-post-01">
-        <div class="mask"></div>
 </article>

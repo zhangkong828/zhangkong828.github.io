@@ -86,7 +86,7 @@ navs:
   #       subLabel: Spring Cloud
   -
     href: /archives
-    label: 博客
+    label: 归档
     target: _self
 
   -
@@ -180,4 +180,4 @@ gitalk:
     clientID: 54a94d050e1e2b420f30
     clientSecret: c22e87c1b2ef30c21ead785c00ed223bc6e98f28
 # 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
+lazy_load_disqus : false

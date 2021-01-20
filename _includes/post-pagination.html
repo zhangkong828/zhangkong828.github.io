@@ -1,0 +1,16 @@
+<div class="row post-nav">
+    {% if page.previous %}
+            <div class="post-nav-item">
+                <a href="{{ page.previous.url | relative_url }}" rel="prev" title="{{ page.previous.title | markdownify | strip_html }}">
+                  <i class="fa fa-chevron-left"></i> {{ page.previous.title | markdownify | strip_html }}
+                </a>
+            </div>
+    {% endif %}
+     {% if page.next %}
+            <div class="post-nav-item">
+                <a href="{{ page.next.url | relative_url }}" rel="next" title="{{ page.next.title | markdownify | strip_html }}">
+                  {{ page.next.title | markdownify | strip_html }} <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+    {% endif %}
+          </div>
