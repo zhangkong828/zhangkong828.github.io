@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 所有博客
-titlebar: 所有博客
+title: 所有归档
+titlebar: 所有归档
 subtitle:  
 menu: archives
 css: ['blog-page.css']
