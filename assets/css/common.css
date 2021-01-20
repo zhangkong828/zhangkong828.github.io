@@ -352,3 +352,43 @@ margin-bottom: 0;
     overflow: hidden;
     padding-bottom: 30px;
 }
+
+.post-nav {
+    border-top: 1px solid #eee;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding: 10px 5px 0;
+}
+
+.post-nav-item {
+    flex: 1;
+}
+
+    .post-nav-item a {
+        border-bottom: none;
+        display: block;
+        font-size: 0.875em;
+        line-height: 1.6;
+    }
+
+        .post-nav-item a:active {
+            top: 2px;
+        }
+
+    .post-nav-item .fa {
+        font-size: 0.75em;
+    }
+
+    .post-nav-item:first-child .fa {
+        margin-right: 5px;
+    }
+
+    .post-nav-item:last-child {
+        text-align: right;
+    }
+
+        .post-nav-item:last-child .fa {
+            margin-left: 5px;
+        }
