@@ -2,8 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\images"
+    "\\assets\\css",
+    "\\bower_components",
+    "\\bower_components\\primer-markdown",
+    "\\bower_components\\primer-markdown\\dist",
+    "\\_includes",
+    "\\_layouts",
+    "\\_posts"
   ],
-  "SelectedNode": "\\assets\\images\\favicon.ico",
+  "SelectedNode": "\\_layouts\\page.html",
   "PreviewInSolutionExplorer": false
 }
