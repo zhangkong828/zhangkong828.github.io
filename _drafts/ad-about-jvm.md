@@ -18,8 +18,8 @@ excerpt: 面试资源
 1.近期想跳槽，要面试的 Java 程序员，查漏补缺，以便尽快弥补短板；  
 2.想了解“一线互联网公司”最新技术要求，对比找出自身的长处和弱点所在，评估自己在现有市场上的竞争力如何；  
 3.做了几年 Java 开发，但还没形成系统的 Java 知识体系，缺乏清晰的提升方向和学习路径的程序员。  
-![cloud](https://zhangkong.oss-cn-shanghai.aliyuncs.com/images/cloud.png)
 
+![cloud_2021-01-28-00-56-22](https://oss.zhangkong.cloud/images/blog/cloud_2021-01-28-00-56-22.png)
 相信它会给大家带来很多收获。
 
 **高清Xmind大图，文末获取，建议下载到电脑上查看。**
