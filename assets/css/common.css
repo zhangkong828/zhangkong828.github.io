@@ -357,7 +357,7 @@ margin-bottom: 0;
     list-style: none;
     padding: 0.5em 1em;
     background: var(--card-bg-color);
-    border-left: 3px solid #428bca;
+    border-left: 3px solid #0366d6;
     margin: 1em 0 0;
 }
 .post-nav {
