@@ -5,6 +5,7 @@ titlebar: 友情链接
 subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; Resource link
 menu: Link
 permalink: /link
+no-post-nav: true
 ---
 
 ## 友情链接
