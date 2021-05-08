@@ -35,5 +35,9 @@
 }
 
 .site-header .site-header-nav-item a {
-    color: #9acfea;
+    color: #fff;
+}
+
+.site-header.site-header-nav-scrolled .site-header-nav-item a {
+    color: #4183c4 !important;
 }
