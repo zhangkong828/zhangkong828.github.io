@@ -352,7 +352,9 @@ margin-bottom: 0;
     overflow: hidden;
     padding-bottom: 30px;
 }
-
+.post-copyright{
+    margin-top: 100px;
+}
 .post-copyright ul {
     list-style: none;
     padding: 0.5em 1em;
